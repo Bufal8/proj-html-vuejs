@@ -2,13 +2,15 @@
 import PageDescription from './PageDescription.vue';
 import PageSignUp   from './PageSignUp.vue';
 import PageIcons from './PageIcons.vue';
+import PageResultsCard from './PageResultsCard.vue'
 
 export default {
     name : "AppMain",
     components: {
     PageDescription,
     PageSignUp,
-    PageIcons
+    PageIcons,
+    PageResultsCard
 }
 }
 </script>
@@ -18,6 +20,7 @@ export default {
 <PageDescription />
 <PageSignUp />
 <PageIcons />
+<PageResultsCard />
 
 </template>
 
