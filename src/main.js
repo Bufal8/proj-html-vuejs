@@ -4,4 +4,21 @@ import App from './App.vue'
 import * as bootstrap from 'bootstrap'
 
 
-createApp(App).mount('#app')
+// Import FONTAWESOME
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+/* import font awesome icon component */
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+/* import specific icons */
+import { faLinkSlash, faBicycle, faPerson, faHeartPulse } from '@fortawesome/free-solid-svg-icons'
+
+/* add icons to the library */
+library.add(faLinkSlash , faBicycle, faPerson, faHeartPulse)
+
+createApp(App)
+.component('font-awesome-icon', FontAwesomeIcon)
+.mount('#app')
+
+
+
