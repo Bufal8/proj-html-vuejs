@@ -29,10 +29,10 @@ export default {
 .container-fluid{
     background-image: url(../assets/images/home-parallax.jpg);
     background-size: cover;
-    height: 300px;
+    height: 250px;
     color: $quarto;
   .row{  
-    padding-top: 140px;
+    padding: 80px 0;
     width: 60%;
     margin: 0 auto;
         h2{

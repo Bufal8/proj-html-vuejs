@@ -8,6 +8,7 @@ import PageQuote from './PageQuote.vue'
 import PageTrainers from './PageTrainers.vue'
 import PageNews from './PageNews.vue'
 import PageJoinUs from './PageJoinUs.vue'
+import PagePreFooter from './PagePreFooter.vue'
 
 export default {
     name : "AppMain",
@@ -20,7 +21,8 @@ export default {
     PageQuote,
     PageTrainers,
     PageNews,
-    PageJoinUs
+    PageJoinUs,
+    PagePreFooter
 }
 }
 </script>
@@ -36,6 +38,7 @@ export default {
 <PageTrainers />
 <PageNews />
 <PageJoinUs />
+<PagePreFooter />
 
 </template>
 
