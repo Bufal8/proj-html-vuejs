@@ -7,6 +7,7 @@ import PageHighPerformance from './PageHighPerformance.vue';
 import PageQuote from './PageQuote.vue'
 import PageTrainers from './PageTrainers.vue'
 import PageNews from './PageNews.vue'
+import PageJoinUs from './PageJoinUs.vue'
 
 export default {
     name : "AppMain",
@@ -18,7 +19,8 @@ export default {
     PageHighPerformance,
     PageQuote,
     PageTrainers,
-    PageNews
+    PageNews,
+    PageJoinUs
 }
 }
 </script>
@@ -33,6 +35,7 @@ export default {
 <PageQuote />
 <PageTrainers />
 <PageNews />
+<PageJoinUs />
 
 </template>
 
