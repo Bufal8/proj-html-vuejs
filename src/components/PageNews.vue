@@ -95,7 +95,7 @@ export default {
         }
     }
     .riga{
-        width: 80%;
+        width: 70%;
         margin: 0 290px;
         // .bigger-card{
         //     height: 800px;

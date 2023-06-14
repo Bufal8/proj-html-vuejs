@@ -46,12 +46,11 @@ export default {
 
 .container-fluid{
     color: $secondo;
-    background-color: $terzo;
+    background-color: $secondo;
     font-family: 'Montserrat', sans-serif;
 
-
     .row{
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         padding: 80px 0;
         .titolo{

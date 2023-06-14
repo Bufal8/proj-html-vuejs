@@ -33,7 +33,7 @@ export default {
     color: $quarto;
   .row{  
     padding: 80px 0;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
         h2{
             margin: 0 auto;

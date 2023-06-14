@@ -1,7 +1,16 @@
 <script>
+import { store } from "../store.js"
 
 export default {
     name : "PageHeader",
+    data(){
+        return{
+            store,
+        }
+    },
+    props: {
+        navMenu: Array,
+    }
 }
 </script>
 
@@ -15,6 +24,10 @@ export default {
                 </div>
                 <nav class="col-6">
                     <ul class="nav justify-content-end">
+                        <!-- <li v-for="(voceMenu, id) in navMenu" :class="voceMenu.active ? 'active' : ''" :key="id">
+                            <a href="#">
+                                {{ voceMenu.name }}
+                            </a></li> -->
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">HOME</a>
                         </li>
