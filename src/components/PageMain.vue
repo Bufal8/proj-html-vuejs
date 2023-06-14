@@ -5,6 +5,7 @@ import PageIcons from './PageIcons.vue';
 import PageResultsCard from './PageResultsCard.vue'
 import PageHighPerformance from './PageHighPerformance.vue';
 import PageQuote from './PageQuote.vue'
+import PageTrainers from './PageTrainers.vue'
 
 export default {
     name : "AppMain",
@@ -14,7 +15,8 @@ export default {
     PageIcons,
     PageResultsCard,
     PageHighPerformance,
-    PageQuote
+    PageQuote,
+    PageTrainers
 }
 }
 </script>
@@ -27,6 +29,7 @@ export default {
 <PageResultsCard />
 <PageHighPerformance />
 <PageQuote />
+<PageTrainers />
 
 </template>
 
