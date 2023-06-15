@@ -11,7 +11,7 @@ export default {
             <h2>HIGH PERFORMANCE FACILITIES</h2>
             <img src="../assets/images/divider-xx-red.png" alt="">
         </div>
-        <div class="row riga row-cols-3 g-5">
+        <div class="row riga row-cols-3 g-2">
         
             <div class="img-performance col">
                 <img src="../assets/images/home-image1.jpg" alt="">
