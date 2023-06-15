@@ -81,7 +81,7 @@ export default {
     }
     .riga{
         width: 70%;
-        margin: 0 290px;
+        margin: 0 auto;
         .card-body{
             background-color: $secondo;
             .card-text{
