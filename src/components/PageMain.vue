@@ -24,7 +24,7 @@ export default {
     PageNews,
     PageJoinUs,
     PagePreFooter,
-    PageFooter
+
 }
 }
 </script>
@@ -41,7 +41,7 @@ export default {
 <PageNews />
 <PageJoinUs />
 <PagePreFooter />
-<PageFooter />
+
 
 </template>
 

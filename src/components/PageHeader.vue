@@ -1,16 +1,34 @@
 <script>
-import { store } from "../store.js"
+// import { store } from "../store.js"
 
 export default {
     name : "PageHeader",
     data(){
-        return{
-            store,
+    return{
+      vociMenu: [
+        {
+            name: "HOME",
+            active: true
+        }, {
+            name: "ABOUT US",
+            active: false
+        }, {
+            name: "FACILITIES",
+            active: false
+        }, {
+            name: "MEMBERSHIP",
+            active: false
+        }, {
+            name: "TESTIMONIALS",
+            active: false
+        },
+        {
+            name: "BLOG",
+            active: false
         }
-    },
-    props: {
-        navMenu: Array,
+    ]
     }
+  }
 }
 </script>
 
@@ -24,28 +42,10 @@ export default {
                 </div>
                 <nav class="col-6">
                     <ul class="nav justify-content-end">
-                        <!-- <li v-for="(voceMenu, id) in navMenu" :class="voceMenu.active ? 'active' : ''" :key="id">
-                            <a href="#">
+                        <li v-for="(voceMenu, id) in vociMenu" :key="id" :class="{ active : voceMenu.active }">
+                            <a href="#" >
                                 {{ voceMenu.name }}
-                            </a></li> -->
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FACILITIES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">MEMBERSHIP</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">TESTIMONIALS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">BLOG</a>
-                        </li>
+                            </a></li>
                     </ul>
                 </nav>
             </div>
@@ -80,8 +80,12 @@ header{
 
     }
     li{
-        color: $quarto;
-        font-size: 14px;
+        margin-right: 15px;
+        a{
+            color: $quarto;
+            font-size: 14px;
+            text-decoration: none;
+        }
         .active{
             color: $primo;
         }
@@ -89,6 +93,7 @@ header{
     .jumbotron{
         margin-top: 140px;
         color: $quarto;
+
         
         h1{
             font-size: 80px;
